@@ -58,4 +58,7 @@ Honeypot design and real-world attack observation
 
 
 Tools & Technologies
-Microsoft Azure Microsoft Sentinel Log Analytics KQL Windows Security Events NSG AMA Data Connector Microsoft Defender Portal
+![Azure](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![KQL](https://img.shields.io/badge/KQL-darkblue?style=for-the-badge)
+![Windows](https://img.shields.io/badge/Windows_10-0078D6?style=for-the-badge&logo=windows&logoColor=white)
