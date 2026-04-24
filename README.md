@@ -1,6 +1,8 @@
 
 # 🛡️ Azure SOC Home Lab — SIEM with Live Attack Data
 
+![Screenshot](cyber_homelab/Screenshot-2026-04-24-064737.png)
+
 ## Overview
 Built a cloud-based Security Operations Center (SOC) in Microsoft Azure using a free subscription. Deployed a Windows VM as a honeypot exposed to the public internet, collected real-world attack telemetry, and analyzed it using Microsoft Sentinel (SIEM) with KQL queries and a live geolocation attack map.
 
@@ -83,6 +85,14 @@ SecurityEvent
 ![Screenshot](cyber_homelab/Screenshot-2026-04-24-062652.png)
 
 > 🌍 Results confirmed brute-force login attempts originating from **Hong Kong** targeting accounts such as `AZUREADMIN`, `AZUREUSER`, and `TESTUSER` — demonstrating real-world threat actor activity against the exposed honeypot.
+
+### 6. Attack Map
+
+Built a Microsoft Sentinel Workbook to visualize attacker locations on a live world map, plotting failed login attempts enriched with GeoIP data.
+
+![Screenshot](cyber_homelab/Screenshot-2026-04-24-064544.png)
+
+> 📍 The map confirms real-world brute-force activity targeting the honeypot, with attacks originating from **Hong Kong** within hours of the VM being exposed to the public internet.
 ---
 
 ## 📋 Skills Demonstrated
