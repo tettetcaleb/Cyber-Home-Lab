@@ -68,6 +68,21 @@ SecurityEvent
 
  ![Screenshot](cyber_homelab/Screenshot-2026-04-24-054048.png)
 
+### 5. Geo-Enriched Attack Query
+
+Using the uploaded GeoIP watchlist, ran a KQL query to enrich failed login attempts with attacker location data:
+
+```kql
+SecurityEvent
+| where EventID == 4625
+| where IpAddress != "-"
+| evaluate ipv4_lookup(_GetWatchlist("geoip"), IpAddress, network)
+| project TimeGenerated, Account, Computer, AttackerIp = IpAddress, cityname, countryname, latitude, longitude
+```
+
+![Screenshot](cyber_homelab/Screenshot-2026-04-24-062652.png)
+
+> 🌍 Results confirmed brute-force login attempts originating from **Hong Kong** targeting accounts such as `AZUREADMIN`, `AZUREUSER`, and `TESTUSER` — demonstrating real-world threat actor activity against the exposed honeypot.
 ---
 
 ## 📋 Skills Demonstrated
