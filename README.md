@@ -49,16 +49,18 @@ Used the watchlist to enrich attacker IP addresses with geographic location data
 
 Skills Demonstrated
 
-Azure cloud infrastructure (VMs, NSGs, resource groups)
-SIEM deployment and configuration (Microsoft Sentinel)
-Log ingestion pipeline (AMA connector, Data Collection Rules)
-Threat detection with KQL
-Geolocation enrichment and log analysis
-Honeypot design and real-world attack observation
+-Azure cloud infrastructure (VMs, NSGs, resource groups)
+
+-SIEM deployment and configuration (Microsoft Sentinel)
+
+-Log ingestion pipeline (AMA connector, Data Collection Rules)
+
+-Threat detection with KQL
+
+-Geolocation enrichment and log analysis
+
+-Honeypot design and real-world attack observation
 
 
 Tools & Technologies
-![Azure](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-![KQL](https://img.shields.io/badge/KQL-darkblue?style=for-the-badge)
-![Windows](https://img.shields.io/badge/Windows_10-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+Microsoft Azure, Microsoft Sentinel,  Log Analytics, KQL, Windows Security Events, NSG, AMA, Data Connector, Microsoft Defender Portal
